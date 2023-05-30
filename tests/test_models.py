@@ -1,8 +1,8 @@
-pip install pytest"""Tests for statistics functions within the Model layer."""
+pip install pytest """Tests for statistics functions within the Model layer."""
 
 import numpy as np
 import pytest
-
+import numpy.testing as npt
 
 def test_daily_mean_zeros():
     """Test that mean function works for an array of zeros."""
